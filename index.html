@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenger Alura</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="./assets/Frame 6.png" alt="logo-alura">
+       
+    </header>
+    <main class="apresentacao_entrada_saida">
+        <section class="entrada">
+            <div class="texto_regra">
+                <textarea class="entradaTexto" id="entradaTexto" placeholder="Digite seu texto"></textarea>
+                <div class="apresentacao_regras">
+                    <img src="./assets/bi_exclamation-circle-fill.png" alt="exclamação">
+                    <p class="aviso">Apenas letras minúsculas e sem acento.</p>
+                </div>
+            </div>
+
+            <div class="buttons">
+                <button onclick="criptografarTexto()" class="btn_criptografar">Criptografar</button>
+                <button onclick="descriptoTexto()" class="btn_descriptografar">Descriptografar</button>
+            </div>
+        </section>
+
+        <section class="saida" id="saida">
+            <img class="img_saida" src="./assets/High quality products 1 1.png" alt="menina-diamante">
+            <h2 class="info_saida">Nenhuma mensagem encontrada</h2>
+            <span class="span_saida">Digite um texto que você deseja criptografar ou descriptografar.</span>
+            
+        </section>
+        
+        
+    </main>
+    
+    <footer class=rodape>
+        <p>Desenvolvido por Marcio</p>
+        <div class="icons">
+            <a href="https://github.com/MarcioZN"><ion-icon name="logo-github"></ion-icon></a>
+            <a href="https://www.linkedin.com/in/marcio-henrique-dev/"><ion-icon name="logo-linkedin"></ion-icon></a>
+        </div>
+    </footer>
+    <script src="./script/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
