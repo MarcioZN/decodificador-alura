@@ -15,7 +15,7 @@
 <h2>Funcionalidades</h2>
 <ul>
   <li>Funciona apenas com letras minúsculas;</li>
-  <li>Não devem ser utilizados letras com acentos, pontuações e caracteres especiais, como hastag, arroba, etc;</li>
+  <li>Não devem ser utilizadas letras com acentos, pontuações e caracteres especiais, como hastag, arroba, etc;</li>
   <li>É possível criptografar uma palavra, e também descriptografar para versão original.</li>
 </ul>
 
