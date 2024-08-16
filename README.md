@@ -3,6 +3,14 @@
 <h2>Sobre</h2>
 <p>Projeto realizado como parte de um desafio do programa ONE, uma colaboração entre a Oracle e a Alura. Que envolve a criação de um decodificador de texto interativo, utilizando tecnologias como HTML, CSS e JavaScript.</p>
 
+
+<h2>Funcionalidades</h2>
+<ul>
+  <li>Funciona apenas com letras minúsculas;</li>
+  <li>Não devem ser utilizadas letras com acentos, pontuações e caracteres especiais, como hastag, arroba, etc;</li>
+  <li>É possível criptografar uma palavra, e também descriptografar para versão original.</li>
+</ul>
+
 <h2>Chave de criptografia</h2>
 <ul>
   <li>A letra "a" é alterada para "ai"</li>
@@ -10,13 +18,6 @@
   <li>A letra "i" é alterada para "imes"</li>
   <li>A letra "o" é alterada para "ober"</li>
   <li>A letra "u" é alterada para "ufat"</li>
-</ul>
-
-<h2>Funcionalidades</h2>
-<ul>
-  <li>Funciona apenas com letras minúsculas;</li>
-  <li>Não devem ser utilizadas letras com acentos, pontuações e caracteres especiais, como hastag, arroba, etc;</li>
-  <li>É possível criptografar uma palavra, e também descriptografar para versão original.</li>
 </ul>
 
 <h2>Tecnologias</h2>
